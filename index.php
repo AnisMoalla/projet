@@ -464,7 +464,7 @@ SmartPhone Compatible web template, free WebDesigns for Nokia, Samsung, LG, Sony
     <input type="hidden" value="<?PHP echo $row['cin']; ?>" name="cin">
     </form>
     </td>
-    <td><a href="modifierregistre.php?cin=<?PHP echo $row['cin']; ?>">
+    <td><a href="modifier.php?cin=<?PHP echo $row['cin']; ?>">
     Modifier</a></td>
     </tr>
     <?PHP
@@ -483,8 +483,7 @@ SmartPhone Compatible web template, free WebDesigns for Nokia, Samsung, LG, Sony
               </div>
             </div>
         </div>
-  Fin de la discussion
-  Écrivez un message...
+  
   
   
 				
