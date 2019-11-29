@@ -8,11 +8,11 @@
   left: 50%;
   transform: translate(-50%, -50%) scale(0);
   transition: 200ms ease-in-out;
-  border: 5px solid red;
-  border-radius: 50px;
+  border: 1px solid black;
+  border-radius: 10px;
   z-index: 10;
   background-color: white;
-  width: 1000px;
+  width: 500px;
   max-width: 80%;
 }
 
@@ -29,8 +29,7 @@
 }
 
 .modal-header .title {
-  color: grey;
-  font-size: 2rem;
+  font-size: 1.25rem;
   font-weight: bold;
 }
 
@@ -44,10 +43,7 @@
 }
 
 .modal-body {
-  padding: 20px 25px;
-  font-size: 1.75rem;
-  color: red;
-  align-items: center;
+  padding: 10px 15px;
 }
 
 #overlay {
