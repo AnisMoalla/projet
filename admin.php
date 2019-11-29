@@ -1,61 +1,37 @@
-<?PHP
-class Admin{
-	private $cin;
-	private $nom;
-	private $prenom;
-	private $mail;
-	private $pass;
-	function __construct($cin,$nom,$prenom,$mail,$pass){
-		$this->cin=$cin;
-		$this->nom=$nom;
-		$this->prenom=$prenom;
-		$this->mail=$mail;
-		$this->pass=$pass;
-		
-	}
-	function getCin(){
-		return $this->cin;
-	}
-	
-	function getNom(){
-		return $this->nom;
-	}
-	function getPrenom(){
-		return $this->prenom;
-	}
-	
-	function getMail(){
-		return $this->mail;
-	}
-	function getPass(){
-		return $this->pass;
-	}
-	
-	function setCin($cin){
-		$this->cin=$cin;
-	}
-	function setNom($nom){
-		$this->nom=$nom;
-	}
-	function setPrenom($prenom){
-		$this->prenom=$prenom;
-	}
-	
-	function setMail($mail){
-		$this->mail=$mail;
-	}
-	function setPass($pass){
-		$this->pass=$pass;
-	}
-	
-	
-	//function setNbHeures($nbHeures){
-		//$this->nbHeures=$nbHeures;
-	//}
-	//function setTarifHoraire($tarifHoraire){
-		//$this->tarifHoraire=$tarifHoraire;
-	//}
-	
+<?php 
+
+
+session_start() ; 
+// header('location:member.html') ; 
+$con = mysqli_connect('localhost','root','') ; 
+mysqli_select_db($con, 'projet') ; 
+
+
+ 
+$mail = $_POST['mail'];  
+$passe = $_POST['passe']; 
+
+
+
+$s = " select * from sign where mail = '$mail' && passe = '$passe' "; 
+
+$result = mysqli_query($con, $s); 
+
+$num = mysqli_num_rows($result); 
+
+if($num == 1)
+{
+	echo " Email Already taken";
+}
+else
+{
+	$reg=" insert into user (mail,passe) values ('$mail' , '$passe')";
+	mysqli_query($con, $reg);
+    //echo " Registration Successful";
+    header('location:index.html');
 }
 
 ?>
+
+
+ 

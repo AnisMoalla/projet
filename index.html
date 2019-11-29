@@ -1,942 +1,1832 @@
 <!--
-Author: W3layouts
-Author URL: http://w3layouts.com
-License: Creative Commons Attribution 3.0 Unported
-License URL: http://creativecommons.org/licenses/by/3.0/
+	Author: W3layouts
+	Author URL: http://w3layouts.com
+	License: Creative Commons Attribution 3.0 Unported
+	License URL: http://creativecommons.org/licenses/by/3.0/
 -->
-<!DOCTYPE HTML>
-<html>
+
+<!DOCTYPE html>
+<html lang="zxx">
+
 <head>
-<title>Glance Design Dashboard an Admin Panel Category Flat Bootstrap Responsive Website Template | Home :: w3layouts</title>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<meta name="keywords" content="Glance Design Dashboard Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template, 
-SmartPhone Compatible web template, free WebDesigns for Nokia, Samsung, LG, SonyEricsson, Motorola web design" />
-<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+	<title>Accueil</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta charset="utf-8">
+	<meta name="keywords" content="Goggles a Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template, 
+Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyEricsson, Motorola web design" />
+<script>
+	addEventListener("load", function () {
+		setTimeout(hideURLbar, 0);
+	}, false);
 
-<!-- Bootstrap Core CSS -->
-<link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
+	function hideURLbar() {
+		window.scrollTo(0, 1);
+	}
+</script>
+	<link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
+	<link href="css/login_overlay.css" rel='stylesheet' type='text/css' />
+	<link href="css/style6.css" rel='stylesheet' type='text/css' />
+	<link rel="stylesheet" href="css/shop.css" type="text/css" />
+	<link rel="stylesheet" href="css/owl.carousel.css" type="text/css" media="all">
+	<link rel="stylesheet" href="css/owl.theme.css" type="text/css" media="all">
+	<link href="css/style.css" rel='stylesheet' type='text/css' />
+	<link href="css/fontawesome-all.css" rel="stylesheet">
+	<link href="//fonts.googleapis.com/css?family=Inconsolata:400,700" rel="stylesheet">
+	<link href="//fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800"
+	    rel="stylesheet">
+</head>
 
-<!-- Custom CSS -->
-<link href="css/style.css" rel='stylesheet' type='text/css' />
-
-<!-- font-awesome icons CSS -->
-<link href="css/font-awesome.css" rel="stylesheet"> 
-<!-- //font-awesome icons CSS-->
-
-<!-- side nav css file -->
-<link href='css/SidebarNav.min.css' media='all' rel='stylesheet' type='text/css'/>
-<!-- //side nav css file -->
- 
- <!-- js-->
-<script src="js/jquery-1.11.1.min.js"></script>
-<script src="js/modernizr.custom.js"></script>
-
-<!--webfonts-->
-<link href="//fonts.googleapis.com/css?family=PT+Sans:400,400i,700,700i&amp;subset=cyrillic,cyrillic-ext,latin-ext" rel="stylesheet">
-<!--//webfonts--> 
-
-<!-- chart -->
-<script src="js/Chart.js"></script>
-<!-- //chart -->
-
-<!-- Metis Menu -->
-<script src="js/metisMenu.min.js"></script>
-<script src="js/custom.js"></script>
-<link href="css/custom.css" rel="stylesheet">
-<!--//Metis Menu -->
-<style>
-#chartdiv {
-  width: 100%;
-  height: 295px;
-}
-</style>
-<!--pie-chart --><!-- index page sales reviews visitors pie chart -->
-<script src="js/pie-chart.js" type="text/javascript"></script>
- <script type="text/javascript">
-
-        $(document).ready(function () {
-            $('#demo-pie-1').pieChart({
-                barColor: '#2dde98',
-                trackColor: '#eee',
-                lineCap: 'round',
-                lineWidth: 8,
-                onStep: function (from, to, percent) {
-                    $(this.element).find('.pie-value').text(Math.round(percent) + '%');
-                }
-            });
-
-            $('#demo-pie-2').pieChart({
-                barColor: '#8e43e7',
-                trackColor: '#eee',
-                lineCap: 'butt',
-                lineWidth: 8,
-                onStep: function (from, to, percent) {
-                    $(this.element).find('.pie-value').text(Math.round(percent) + '%');
-                }
-            });
-
-            $('#demo-pie-3').pieChart({
-                barColor: '#ffc168',
-                trackColor: '#eee',
-                lineCap: 'square',
-                lineWidth: 8,
-                onStep: function (from, to, percent) {
-                    $(this.element).find('.pie-value').text(Math.round(percent) + '%');
-                }
-            });
-
-           
-        });
-
-    </script>
-<!-- //pie-chart --><!-- index page sales reviews visitors pie chart -->
-
-	<!-- requried-jsfiles-for owl -->
-					<link href="css/owl.carousel.css" rel="stylesheet">
-					<script src="js/owl.carousel.js"></script>
-						<script>
-							$(document).ready(function() {
-								$("#owl-demo").owlCarousel({
-									items : 3,
-									lazyLoad : true,
-									autoPlay : true,
-									pagination : true,
-									nav:true,
-								});
-							});
-						</script>
-					<!-- //requried-jsfiles-for owl -->
-</head> 
-<body class="cbp-spmenu-push">
-	<div class="main-content">
-	<div class="cbp-spmenu cbp-spmenu-vertical cbp-spmenu-left" id="cbp-spmenu-s1">
-		<!--left-fixed -navigation-->
-		<aside class="sidebar-left">
-      <nav class="navbar navbar-inverse">
-          <div class="navbar-header">
-            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".collapse" aria-expanded="false">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            </button>
-            <h1><a class="navbar-brand" href="index.html"><span class="fa fa-area-chart"></span> Glance<span class="dashboard_text">Design dashboard</span></a></h1>
-          </div>
-          <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-            <ul class="sidebar-menu">
-              <li class="header">MAIN NAVIGATION</li>
-              <li class="treeview">
-                <a href="index.html">
-                <i class="fa fa-dashboard"></i> <span>Dashboard</span>
-                </a>
-              </li>
-			  <li class="treeview">
-                <a href="#">
-                <i class="fa fa-laptop"></i>
-                <span>Components</span>
-                <i class="fa fa-angle-left pull-right"></i>
-                </a>
-                <ul class="treeview-menu">
-                  <li><a href="grids.html"><i class="fa fa-angle-right"></i> Grids</a></li>
-                  <li><a href="media.html"><i class="fa fa-angle-right"></i> Media Css</a></li>
-                </ul>
-              </li>
-              <li class="treeview">
-                <a href="charts.html">
-                <i class="fa fa-pie-chart"></i>
-                <span>Charts</span>
-                <span class="label label-primary pull-right">new</span>
-                </a>
-              </li>
-              <li class="treeview">
-              <li class="treeview">
-                <a href="#">
-                <i class="fa fa-laptop"></i>
-                <span>UI Elements</span>
-                <i class="fa fa-angle-left pull-right"></i>
-                </a>
-                <ul class="treeview-menu">
-                  <li><a href="general.html"><i class="fa fa-angle-right"></i> General</a></li>
-                  <li><a href="icons.html"><i class="fa fa-angle-right"></i> Icons</a></li>
-                  <li><a href="buttons.html"><i class="fa fa-angle-right"></i> Buttons</a></li>
-                  <li><a href="typography.html"><i class="fa fa-angle-right"></i> Typography</a></li>
-                </ul>
-              </li>
-			  <li>
-                <a href="widgets.html">
-                <i class="fa fa-th"></i> <span>Widgets</span>
-                <small class="label pull-right label-info">08</small>
-                </a>
-              </li>
-              <li class="treeview">
-                <a href="#">
-                <i class="fa fa-edit"></i> <span>Forms</span>
-                <i class="fa fa-angle-left pull-right"></i>
-                </a>
-                <ul class="treeview-menu">
-                  <li><a href="forms.html"><i class="fa fa-angle-right"></i> General Forms</a></li>
-                  <li><a href="validation.html"><i class="fa fa-angle-right"></i> Form Validations</a></li>
-                </ul>
-              </li>
-              <li class="treeview">
-                <a href="#">
-                <i class="fa fa-table"></i> <span>Tables</span>
-                <i class="fa fa-angle-left pull-right"></i>
-                </a>
-                <ul class="treeview-menu">
-                  <li><a href="tables.html"><i class="fa fa-angle-right"></i> Simple tables</a></li>
-                </ul>
-              </li>
-              <li class="treeview">
-                <a href="#">
-                <i class="fa fa-envelope"></i> <span>Mailbox </span>
-                <i class="fa fa-angle-left pull-right"></i><small class="label pull-right label-info1">08</small><span class="label label-primary1 pull-right">02</span></a>
-                <ul class="treeview-menu">
-                  <li><a href="inbox.html"><i class="fa fa-angle-right"></i> Mail Inbox </a></li>
-                  <li><a href="compose.html"><i class="fa fa-angle-right"></i> Compose Mail </a></li>
-                </ul>
-              </li>
-              <li class="treeview">
-                <a href="#">
-                <i class="fa fa-folder"></i> <span>Examples</span>
-                <i class="fa fa-angle-left pull-right"></i>
-                </a>
-                <ul class="treeview-menu">
-                  <li><a href="login.html"><i class="fa fa-angle-right"></i> Login</a></li>
-                  <li><a href="signup.html"><i class="fa fa-angle-right"></i> Register</a></li>
-                  <li><a href="404.html"><i class="fa fa-angle-right"></i> 404 Error</a></li>
-                  <li><a href="500.html"><i class="fa fa-angle-right"></i> 500 Error</a></li>
-                  <li><a href="blank-page.html"><i class="fa fa-angle-right"></i> Blank Page</a></li>
-                </ul>
-              </li>
-              <li class="header">LABELS</li>
-              <li><a href="#"><i class="fa fa-angle-right text-red"></i> <span>Important</span></a></li>
-              <li><a href="#"><i class="fa fa-angle-right text-yellow"></i> <span>Warning</span></a></li>
-              <li><a href="#"><i class="fa fa-angle-right text-aqua"></i> <span>Information</span></a></li>
-            </ul>
-          </div>
-          <!-- /.navbar-collapse -->
-      </nav>
-    </aside>
-	</div>
-		<!--left-fixed -navigation-->
-		
-		<!-- header-starts -->
-		<div class="sticky-header header-section ">
-			<div class="header-left">
-				<!--toggle button start-->
-				<button id="showLeftPush"><i class="fa fa-bars"></i></button>
-				<!--toggle button end-->
-				<div class="profile_details_left"><!--notifications of menu start -->
-					<ul class="nofitications-dropdown">
-						<li class="dropdown head-dpdn">
-							<a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-expanded="false"><i class="fa fa-envelope"></i><span class="badge">4</span></a>
-							<ul class="dropdown-menu">
-								<li>
-									<div class="notification_header">
-										<h3>You have 3 new messages</h3>
-									</div>
-								</li>
-								<li><a href="#">
-								   <div class="user_img"><img src="images/1.jpg" alt=""></div>
-								   <div class="notification_desc">
-									<p>Lorem ipsum dolor amet</p>
-									<p><span>1 hour ago</span></p>
-									</div>
-								   <div class="clearfix"></div>	
-								</a></li>
-								<li class="odd"><a href="#">
-									<div class="user_img"><img src="images/4.jpg" alt=""></div>
-								   <div class="notification_desc">
-									<p>Lorem ipsum dolor amet </p>
-									<p><span>1 hour ago</span></p>
-									</div>
-								  <div class="clearfix"></div>	
-								</a></li>
-								<li><a href="#">
-								   <div class="user_img"><img src="images/3.jpg" alt=""></div>
-								   <div class="notification_desc">
-									<p>Lorem ipsum dolor amet </p>
-									<p><span>1 hour ago</span></p>
-									</div>
-								   <div class="clearfix"></div>	
-								</a></li>
-								<li><a href="#">
-								   <div class="user_img"><img src="images/2.jpg" alt=""></div>
-								   <div class="notification_desc">
-									<p>Lorem ipsum dolor amet </p>
-									<p><span>1 hour ago</span></p>
-									</div>
-								   <div class="clearfix"></div>	
-								</a></li>
-								<li>
-									<div class="notification_bottom">
-										<a href="#">See all messages</a>
-									</div> 
-								</li>
-							</ul>
-						</li>
-						<li class="dropdown head-dpdn">
-							<a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-expanded="false"><i class="fa fa-bell"></i><span class="badge blue">4</span></a>
-							<ul class="dropdown-menu">
-								<li>
-									<div class="notification_header">
-										<h3>You have 3 new notification</h3>
-									</div>
-								</li>
-								<li><a href="#">
-									<div class="user_img"><img src="images/4.jpg" alt=""></div>
-								   <div class="notification_desc">
-									<p>Lorem ipsum dolor amet</p>
-									<p><span>1 hour ago</span></p>
-									</div>
-								  <div class="clearfix"></div>	
-								 </a></li>
-								 <li class="odd"><a href="#">
-									<div class="user_img"><img src="images/1.jpg" alt=""></div>
-								   <div class="notification_desc">
-									<p>Lorem ipsum dolor amet </p>
-									<p><span>1 hour ago</span></p>
-									</div>
-								   <div class="clearfix"></div>	
-								 </a></li>
-								 <li><a href="#">
-									<div class="user_img"><img src="images/3.jpg" alt=""></div>
-								   <div class="notification_desc">
-									<p>Lorem ipsum dolor amet </p>
-									<p><span>1 hour ago</span></p>
-									</div>
-								   <div class="clearfix"></div>	
-								 </a></li>
-								<li><a href="#">
-								   <div class="user_img"><img src="images/2.jpg" alt=""></div>
-								   <div class="notification_desc">
-									<p>Lorem ipsum dolor amet </p>
-									<p><span>1 hour ago</span></p>
-									</div>
-								   <div class="clearfix"></div>	
-								</a></li>
-								 <li>
-									<div class="notification_bottom">
-										<a href="#">See all notifications</a>
-									</div> 
-								</li>
-							</ul>
-						</li>	
-						<li class="dropdown head-dpdn">
-							<a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-expanded="false"><i class="fa fa-tasks"></i><span class="badge blue1">8</span></a>
-							<ul class="dropdown-menu">
-								<li>
-									<div class="notification_header">
-										<h3>You have 8 pending task</h3>
-									</div>
-								</li>
-								<li><a href="#">
-									<div class="task-info">
-										<span class="task-desc">Database update</span><span class="percentage">40%</span>
-										<div class="clearfix"></div>	
-									</div>
-									<div class="progress progress-striped active">
-										<div class="bar yellow" style="width:40%;"></div>
-									</div>
-								</a></li>
-								<li><a href="#">
-									<div class="task-info">
-										<span class="task-desc">Dashboard done</span><span class="percentage">90%</span>
-									   <div class="clearfix"></div>	
-									</div>
-									<div class="progress progress-striped active">
-										 <div class="bar green" style="width:90%;"></div>
-									</div>
-								</a></li>
-								<li><a href="#">
-									<div class="task-info">
-										<span class="task-desc">Mobile App</span><span class="percentage">33%</span>
-										<div class="clearfix"></div>	
-									</div>
-								   <div class="progress progress-striped active">
-										 <div class="bar red" style="width: 33%;"></div>
-									</div>
-								</a></li>
-								<li><a href="#">
-									<div class="task-info">
-										<span class="task-desc">Issues fixed</span><span class="percentage">80%</span>
-									   <div class="clearfix"></div>	
-									</div>
-									<div class="progress progress-striped active">
-										 <div class="bar  blue" style="width: 80%;"></div>
-									</div>
-								</a></li>
-								<li>
-									<div class="notification_bottom">
-										<a href="#">See all pending tasks</a>
-									</div> 
-								</li>
-							</ul>
-						</li>	
-					</ul>
-					<div class="clearfix"> </div>
-				</div>
-				<!--notification menu end -->
-				<div class="clearfix"> </div>
-			</div>
-			<div class="header-right">
-				
-				
-				<!--search-box-->
-				<div class="search-box">
-					<form class="input">
-						<input class="sb-search-input input__field--madoka" placeholder="Search..." type="search" id="input-31" />
-						<label class="input__label" for="input-31">
-							<svg class="graphic" width="100%" height="100%" viewBox="0 0 404 77" preserveAspectRatio="none">
-								<path d="m0,0l404,0l0,77l-404,0l0,-77z"/>
-							</svg>
-						</label>
-					</form>
-				</div><!--//end-search-box-->
-				
-				<div class="profile_details">		
+<body>
+	<div class="banner-top container-fluid" id="home">
+		<!-- header -->
+		<header>
+			<div class="row">
+				<div class="col-md-3 top-info text-left mt-lg-4">
+					<h6>Besoin d'aide</h6>
 					<ul>
-						<li class="dropdown profile_details_drop">
-							<a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
-								<div class="profile_img">	
-									<span class="prfil-img"><img src="images/2.jpg" alt=""> </span> 
-									<div class="user-name">
-										<p>Admin Name</p>
-										<span>Administrator</span>
-									</div>
-									<i class="fa fa-angle-down lnr"></i>
-									<i class="fa fa-angle-up lnr"></i>
-									<div class="clearfix"></div>	
-								</div>	
-							</a>
-							<ul class="dropdown-menu drp-mnu">
-								<li> <a href="#"><i class="fa fa-cog"></i> Settings</a> </li> 
-								<li> <a href="#"><i class="fa fa-user"></i> My Account</a> </li> 
-								<li> <a href="#"><i class="fa fa-suitcase"></i> Profile</a> </li> 
-								<li> <a href="#"><i class="fa fa-sign-out"></i> Logout</a> </li>
-							</ul>
-						</li>
+						<li>
+							<i class="fas fa-phone"></i> Appeler</li>
+						<li class="number-phone mt-3">72463412</li>
 					</ul>
 				</div>
-				<div class="clearfix"> </div>				
+				<div class="col-md-6 logo-w3layouts text-center">
+					<h1 class="logo-w3layouts">
+						<a class="navbar-brand" href="index.html">
+							Perl'Optique </a>
+					</h1>
+				</div>
+
+				<div class="col-md-3 top-info-cart text-right mt-lg-4">
+					<ul class="cart-inner-info">
+						<li class="button-log">
+							<a class="btn-open" href="#">
+								<span class="fa fa-user" aria-hidden="true"></span>
+							</a>
+						</li>
+						<li class="galssescart galssescart2 cart cart box_1">
+							<form action="#" method="post" class="last">
+								<input type="hidden" name="cmd" value="_cart">
+								<input type="hidden" name="display" value="1">
+								<button class="top_googles_cart" type="submit" name="submit" value="">
+									Mon panier
+									<i class="fas fa-cart-arrow-down"></i>
+								</button>
+							</form>
+						</li>
+					</ul>
+					<!---->
+					<div class="overlay-login text-left">
+						<button type="button" class="overlay-close1">
+							<i class="fa fa-times" aria-hidden="true"></i>
+						</button>
+						<div class="wrap">
+							<h5 class="text-center mb-4">connectez-vous</h5>
+							<div class="login p-5 bg-dark mx-auto mw-100">
+								<form action="admin.php" method="POST">
+									<div class="form-group">
+										<label class="mb-2">Adresse mail</label>
+										<input type="mail" name="mail" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="" required="">
+										<small id="emailHelp" class="form-text text-muted">Nous ne partagerons jamais votre email avec qui que ce soit.</small>
+									</div>
+									<div class="form-group">
+										<label class="mb-2">Mot de passe </label>
+										<input type="password" name="passe" class="form-control" id="exampleInputPassword1" placeholder="" required="">
+									</div>
+									<div class="form-check mb-2">
+										<input type="checkbox" class="form-check-input" id="exampleCheck1">
+										<label class="form-check-label" for="exampleCheck1">mémoriser le mot de passe</label>
+									</div>
+									<button type="submit" class="btn btn-primary submit mb-4" >Se connecter</button> </br>
+									<a href="inscription.html">Inscrivez-vous ici</a>
+
+								</form>
+							</div>
+							<!---->
+						</div>
+					</div>
+					<!---->
+				</div>
 			</div>
-			<div class="clearfix"> </div>	
-		</div>
-		<!-- //header-ends -->
-		<!-- main content start-->
-		<div class="card-body">
-                <div class="table-responsive">
-                  <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
-                    <thead>
-                      <tr>
-                          <br>
-                          <br>
-                          <br>
-                        <th>CIN</th>
-                        <th>nom</th>
-                        <th>prenom</th>
-                        <th>email</th>
-                        <th>mdp</th>
+			<div class="search">
+				<div class="mobile-nav-button">
+					<button id="trigger-overlay" type="button">
+						<i class="fas fa-search"></i>
+					</button>
+				</div>
+				<!-- open/close -->
+				<div class="overlay overlay-door">
+					<button type="button" class="overlay-close">
+						<i class="fa fa-times" aria-hidden="true"></i>
+					</button>
+					<form action="#" method="post" class="d-flex">
+						<input class="form-control" type="search" placeholder="Search here..." required="">
+						<button type="submit" class="btn btn-primary submit">
+							<i class="fas fa-search"></i>
+						</button>
+					</form>
 
-                        
-  
-                      </tr>
-                    </thead>
-                    <tfoot>
-                      <?PHP
-                      include "../core/registreC.php";
-                      $registre1C=new RegistreC();
-                      $listeregistres=$registre1C->afficherregistres();
-                      ?>
-                      <?PHP
-  foreach($listeregistres as $row){
-    ?>
-    <tr>
-    <td><?PHP echo $row['cin']; ?></td>
-    <td><?PHP echo $row['nom']; ?></td>
-    <td><?PHP echo $row['prenom']; ?></td>
-    <td><?PHP echo $row['mail']; ?></td>
-    <td><?PHP echo $row['pass']; ?></td>
-    <td><form method="POST" action="supprimerregistre.php">
-    <input type="submit" name="supprimer" value="supprimer">
-    <input type="hidden" value="<?PHP echo $row['cin']; ?>" name="cin">
-    </form>
-    </td>
-    <td><a href="modifierregistre.php?cin=<?PHP echo $row['cin']; ?>">
-    Modifier</a></td>
-    </tr>
-    <?PHP
-  }
-  ?>
-  
-                 
-      
-                    </tfoot>
-  
-                  </table>
-                  
-  
-  <br/>
-                </div>
-              </div>
-            </div>
-        </div>
-  Fin de la discussion
-  Écrivez un message...
-  
-  
-				
-	
-	<!-- for amcharts js -->
-			<script src="js/amcharts.js"></script>
-			<script src="js/serial.js"></script>
-			<script src="js/export.min.js"></script>
-			<link rel="stylesheet" href="css/export.css" type="text/css" media="all" />
-			<script src="js/light.js"></script>
-	<!-- for amcharts js -->
+				</div>
+				<!-- open/close -->
+			</div>
+			<label class="top-log mx-auto"></label>
+			<nav class="navbar navbar-expand-lg navbar-light bg-light top-header mb-2">
 
-    
-					<!-- start content_slider -->
-					<div id="owl-demo" class="owl-carousel text-center">
-						<div class="item">
+				<button class="navbar-toggler mx-auto" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+				    aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon">
 						
+					</span>
+				</button>
+				<div class="collapse navbar-collapse" id="navbarSupportedContent">
+					<ul class="navbar-nav nav-mega mx-auto">
+						<li class="nav-item active">
+							<a class="nav-link ml-lg-0" href="index.html">Accueil
+								<span class="sr-only">(current)</span>
+							</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="about.html">A propos</a>
+						</li>
+						<li class="nav-item dropdown">
+							<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true"
+							    aria-expanded="false">
+								Fonctionnalités
+							</a>
+							<ul class="dropdown-menu mega-menu ">
+								<li>
+									<div class="row">
+										<div class="col-md-4 media-list span4 text-left">
+											<h5 class="tittle-w3layouts-sub">  Le titre va ici </h5>
+											<ul>
+												<li class="media-mini mt-3">
+													<a href="shop.html">Lunettes de designer</a>
+												</li>
+												<li class="">
+													<a href="shop.html"> Ray-Ban</a>
+												</li>
+												<li>
+													<a href="shop.html">Verres de prescription</a>
+												</li>
+												<li class="mt-3">
+													<h5>Voir plus de pages</h5>
+												</li>
+												<li class="mt-2">
+													<a href="about.html">A propos</a>
+												</li>
+												<li>
+													<a href="customer.html">Les clients</a>
+												</li>
+											</ul>
+										</div>
+										<div class="col-md-4 media-list span4 text-left">
+											<h5 class="tittle-w3layouts-sub"> Le titre va ici  </h5>
+											<div class="media-mini mt-3">
+												<a href="shop.html">
+													<img src="images/g2.jpg" class="img-fluid" alt="">
+												</a>
+											</div>
+										</div>
+										<div class="col-md-4 media-list span4 text-left">
+											<h5 class="tittle-w3layouts-sub">Le titre va ici </h5>
+											<div class="media-mini mt-3">
+												<a href="shop.html">
+													<img src="images/g3.jpg" class="img-fluid" alt="">
+												</a>
+											</div>
+
+										</div>
+									</div>
+									<hr>
+								</li>
+							</ul>
+						</li>
+						<li class="nav-item dropdown">
+							<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown1" role="button" data-toggle="dropdown" aria-haspopup="true"
+							    aria-expanded="false">
+								Boutique
+							</a>
+							<ul class="dropdown-menu mega-menu ">
+								<li>
+									<div class="row">
+										<div class="col-md-4 media-list span4 text-left">
+											<h5 class="tittle-w3layouts-sub"> Le titre va ici  </h5>
+											<ul>
+												<li class="media-mini mt-3">
+													<a href="shop.html">Lunettes de designer</a>
+												</li>
+												<li class="">
+													<a href="shop.html"> Ray-Ban</a>
+												</li>
+												<li>
+													<a href="shop.html">Verres de prescription</a>
+												</li>
+												<li>
+													<a href="shop.html">lunettes solaire </a>
+												</li>
+												<li>
+													<a href="shop.html">lentilles de contact</a>
+												</li>
+												<li>
+													<a href="shop.html">Lunettes multifocales</a>
+												</li>
+												<li>
+													<a href="shop.html">lunettes pour enfants</a>
+												</li>
+												<li>
+													<a href="shop.html">Lunettes légères</a>
+												</li>
+												<li>
+													<a href="shop.html">Lunettes de sport</a>
+												</li>
+											</ul>
+										</div>
+										<div class="col-md-4 media-list span4 text-left">
+											<h5 class="tittle-w3layouts-sub"> Le titre va ici  </h5>
+											<ul>
+												<li class="media-mini mt-3">
+
+													<a href="shop.html">GUCCI</a>
+												</li>
+												<li>
+													<a href="shop.html">DIOR</a>
+												</li>
+												<li>
+													<a href="shop.html">PRADA</a>
+												</li>
+												<li>
+													<a href="shop.html">Ray-Ban</a>
+												</li>
+												<li>
+													<a href="shop.html">Chloé</a>
+												</li>
+												<li>
+													<a href="shop.html">Chanel</a>
+												</li>
+											</ul>
+											<ul class="sub-in text-left">
+
+												<li>
+													<a href="shop.html">GUCCI</a>
+												</li>
+												<li>
+													<a href="shop.html">DIOR</a>
+												</li>
+												<li>
+													<a href="shop.html">PRADA</a>
+												</li>
+											</ul>
+
+										</div>
+										<div class="col-md-4 media-list span4 text-left">
+
+											<h5 class="tittle-w3layouts-sub-nav">Le titre va ici </h5>
+											<div class="media-mini mt-3">
+												<a href="shop.html">
+													<img src="images/g1.jpg" class="img-fluid" alt="">
+												</a>
+											</div>
+
+										</div>
+									</div>
+									<hr>
+								</li>
+							</ul>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="contact.html">Contact</a>
+						</li>
+					</ul>
+
+				</div>
+			</nav>
+		</header>
+		<!-- //header -->
+		<!-- banner -->
+		<div class="banner">
+			<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+				<ol class="carousel-indicators">
+					<li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+					<li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+					<li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+					<li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+				</ol>
+				<div class="carousel-inner" role="listbox">
+					<div class="carousel-item active">
+						<div class="carousel-caption text-center">
+							<h3>lunettes pour hommes
+								<span>solde d'hiver 50 %</span>
+							</h3>
+							<a href="shop.html" class="btn btn-sm animated-button gibson-three mt-4">Achetez maintenant</a>
+						</div>
+					</div>
+					<div class="carousel-item item2">
+						<div class="carousel-caption text-center">
+							<h3>Lunettes pour femmes
+								<span>Voulez-vous regarder votre meilleur?</span>
+							</h3>
+							<a href="shop.html" class="btn btn-sm animated-button gibson-three mt-4">Achetez maintenant</a>
+
+						</div>
+					</div>
+					<div class="carousel-item item3">
+						<div class="carousel-caption text-center">
+							<h3>lunettes pour hommes
+								<span>vous avez la classe nous avons la perfection </span>
+							</h3>
+							<a href="shop.html" class="btn btn-sm animated-button gibson-three mt-4">Achetez maintenant</a>
+
+						</div>
+					</div>
+					<div class="carousel-item item4">
+						<div class="carousel-caption text-center">
+							<h3>Lunettes pour femmes
+								<span>Voulez-vous regarder votre meilleur?</span>
+							</h3>
+							<a href="shop.html" class="btn btn-sm animated-button gibson-three mt-4">Achetez maintenant</a>
+						</div>
+					</div>
+				</div>
+				<a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+					<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+					<span class="sr-only">Previous</span>
+				</a>
+				<a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+					<span class="carousel-control-next-icon" aria-hidden="true"></span>
+					<span class="sr-only">Next</span>
+				</a>
+			</div>
+			<!--//banner -->
+		</div>
+	</div>
+	<!--//banner-sec-->
+	<section class="banner-bottom-wthreelayouts py-lg-5 py-3">
+		<div class="container-fluid">
+			<div class="inner-sec-shop px-lg-4 px-3">
+				<h3 class="tittle-w3layouts my-lg-4 my-4">Nouvelles collections  </h3>
+				<div class="row">
+					<!-- /womens -->
+					<div class="col-md-3 product-men women_two">
+						<div class="product-googles-info googles">
+							<div class="men-pro-item">
+								<div class="men-thumb-item">
+									<img src="images/s1.jpg" class="img-fluid" alt="">
+									<div class="men-cart-pro">
+										<div class="inner-men-cart-pro">
+											<a href="single.html" class="link-product-add-cart">Je découvre</a>
+										</div>
+									</div>
+									<span class="product-new-top">Nouveau</span>
+								</div>
+								<div class="item-info-product">
+									<div class="info-product-price">
+										<div class="grid_meta">
+											<div class="product_price">
+												<h4>
+													<a href="single.html">Ray-Ban</a>
+												</h4>
+												<div class="grid-price mt-2">
+													<span class="money ">570.00dt</span>
+												</div>
+											</div>
+											<ul class="stars">
+												<li>
+													<a href="#">
+														<i class="fa fa-star" aria-hidden="true"></i>
+													</a>
+												</li>
+												<li>
+													<a href="#">
+														<i class="fa fa-star" aria-hidden="true"></i>
+													</a>
+												</li>
+												<li>
+													<a href="#">
+														<i class="fa fa-star" aria-hidden="true"></i>
+													</a>
+												</li>
+												<li>
+													<a href="#">
+														<i class="fa fa-star" aria-hidden="true"></i>
+													</a>
+												</li>
+												<li>
+													<a href="#">
+														<i class="fa fa-star-half-o" aria-hidden="true"></i>
+													</a>
+												</li>
+											</ul>
+										</div>
+										<div class="googles single-item hvr-outline-out">
+											<form action="#" method="post">
+												<input type="hidden" name="cmd" value="_cart">
+												<input type="hidden" name="add" value="1">
+												<input type="hidden" name="googles_item" value="Farenheit">
+												<input type="hidden" name="amount" value="575.00">
+												<button type="submit" class="googles-cart pgoogles-cart">
+													<i class="fas fa-cart-plus"></i>
+												</button>
+
+												
+											</form>
+
+										</div>
+									</div>
+									<div class="clearfix"></div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-3 product-men women_two">
+						<div class="product-googles-info googles">
+							<div class="men-pro-item">
+								<div class="men-thumb-item">
+									<img src="images/s2.jpg" class="img-fluid" alt="">
+									<div class="men-cart-pro">
+										<div class="inner-men-cart-pro">
+											<a href="single.html" class="link-product-add-cart">je découvre</a>
+										</div>
+									</div>
+									<span class="product-new-top">nouveau</span>
+								</div>
+								<div class="item-info-product">
+
+									<div class="info-product-price">
+										<div class="grid_meta">
+											<div class="product_price">
+												<h4>
+													<a href="single.html">oliver one </a>
+												</h4>
+												<div class="grid-price mt-2">
+													<span class="money ">340.00dt</span>
+												</div>
+											</div>
+											<ul class="stars">
+												<li>
+													<a href="#">
+														<i class="fa fa-star" aria-hidden="true"></i>
+													</a>
+												</li>
+												<li>
+													<a href="#">
+														<i class="fa fa-star" aria-hidden="true"></i>
+													</a>
+												</li>
+												<li>
+													<a href="#">
+														<i class="fa fa-star" aria-hidden="true"></i>
+													</a>
+												</li>
+												<li>
+													<a href="#">
+														<i class="fa fa-star-half-o" aria-hidden="true"></i>
+													</a>
+												</li>
+												<li>
+													<a href="#">
+														<i class="fa fa-star-o" aria-hidden="true"></i>
+													</a>
+												</li>
+											</ul>
+										</div>
+										<div class="googles single-item hvr-outline-out">
+											<form action="#" method="post">
+												<input type="hidden" name="cmd" value="_cart">
+												<input type="hidden" name="add" value="1">
+												<input type="hidden" name="googles_item" value="Opium (Grey)">
+												<input type="hidden" name="amount" value="325.00">
+												<button type="submit" class="googles-cart pgoogles-cart">
+													<i class="fas fa-cart-plus"></i>
+												</button>
+
+												
+											</form>
+
+										</div>
+									</div>
+									<div class="clearfix"></div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-3 product-men women_two">
+						<div class="product-googles-info googles">
+							<div class="men-pro-item">
+								<div class="men-thumb-item">
+									<img src="images/s3.jpg" class="img-fluid" alt="">
+									<div class="men-cart-pro">
+										<div class="inner-men-cart-pro">
+											<a href="single.html" class="link-product-add-cart">je découvre</a>
+										</div>
+									</div>
+									<span class="product-new-top">Nouveau</span>
+								</div>
+								<div class="item-info-product">
+
+									<div class="info-product-price">
+										<div class="grid_meta">
+											<div class="product_price">
+												<h4>
+													<a href="single.html">DIOR</a>
+												</h4>
+												<div class="grid-price mt-2">
+													<span class="money ">570.00dt</span>
+												</div>
+											</div>
+											<ul class="stars">
+												<li>
+													<a href="#">
+														<i class="fa fa-star" aria-hidden="true"></i>
+													</a>
+												</li>
+												<li>
+													<a href="#">
+														<i class="fa fa-star" aria-hidden="true"></i>
+													</a>
+												</li>
+												<li>
+													<a href="#">
+														<i class="fa fa-star" aria-hidden="true"></i>
+													</a>
+												</li>
+												<li>
+													<a href="#">
+														<i class="fa fa-star" aria-hidden="true"></i>
+													</a>
+												</li>
+												<li>
+													<a href="#">
+														<i class="fa fa-star-half-o" aria-hidden="true"></i>
+													</a>
+												</li>
+											</ul>
+										</div>
+										<div class="googles single-item hvr-outline-out">
+											<form action="#" method="post">
+												<input type="hidden" name="cmd" value="_cart">
+												<input type="hidden" name="add" value="1">
+												<input type="hidden" name="googles_item" value="Kenneth Cole">
+												<input type="hidden" name="amount" value="575.00">
+												<button type="submit" class="googles-cart pgoogles-cart">
+													<i class="fas fa-cart-plus"></i>
+												</button>
+												
+											</form>
+
+										</div>
+									</div>
+									<div class="clearfix"></div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-3 product-men women_two">
+						<div class="product-googles-info googles">
+							<div class="men-pro-item">
+								<div class="men-thumb-item">
+									<img src="images/s4.jpg" class="img-fluid" alt="">
+									<div class="men-cart-pro">
+										<div class="inner-men-cart-pro">
+											<a href="single.html" class="link-product-add-cart">je découvre</a>
+										</div>
+									</div>
+									<span class="product-new-top">Nouveau</span>
+								</div>
+								<div class="item-info-product">
+
+									<div class="info-product-price">
+										<div class="grid_meta">
+											<div class="product_price">
+												<h4>
+													<a href="single.html"> vogue </a>
+												</h4>
+												<div class="grid-price mt-2">
+													<span class="money ">300.00dt</span>
+												</div>
+											</div>
+											<ul class="stars">
+												<li>
+													<a href="#">
+														<i class="fa fa-star" aria-hidden="true"></i>
+													</a>
+												</li>
+												<li>
+													<a href="#">
+														<i class="fa fa-star" aria-hidden="true"></i>
+													</a>
+												</li>
+												<li>
+													<a href="#">
+														<i class="fa fa-star" aria-hidden="true"></i>
+													</a>
+												</li>
+												<li>
+													<a href="#">
+														<i class="fa fa-star-half-o" aria-hidden="true"></i>
+													</a>
+												</li>
+												<li>
+													<a href="#">
+														<i class="fa fa-star-o" aria-hidden="true"></i>
+													</a>
+												</li>
+											</ul>
+										</div>
+										<div class="googles single-item hvr-outline-out">
+											<form action="#" method="post">
+												<input type="hidden" name="cmd" value="_cart">
+												<input type="hidden" name="add" value="1">
+												<input type="hidden" name="googles_item" value="Farenheit Oval">
+												<input type="hidden" name="amount" value="325.00">
+												<button type="submit" class="googles-cart pgoogles-cart">
+													<i class="fas fa-cart-plus"></i>
+												</button>
+
+												
+											</form>
+
+										</div>
+									</div>
+									<div class="clearfix"></div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- //womens -->
+				<!-- /mens -->
+				<div class="row mt-lg-3 mt-0">
+					<!-- /womens -->
+					<div class="col-md-3 product-men women_two">
+						<div class="product-googles-info googles">
+							<div class="men-pro-item">
+								<div class="men-thumb-item">
+									<img src="images/m1.jpg" class="img-fluid" alt="">
+									<div class="men-cart-pro">
+										<div class="inner-men-cart-pro">
+											<a href="single.html" class="link-product-add-cart">je découvre</a>
+										</div>
+									</div>
+									<span class="product-new-top">Nouveau</span>
+								</div>
+								<div class="item-info-product">
+
+									<div class="info-product-price">
+										<div class="grid_meta">
+											<div class="product_price">
+												<h4>
+													<a href="single.html"> Polo </a>
+												</h4>
+												<div class="grid-price mt-2">
+													<span class="money ">650.00dt</span>
+												</div>
+											</div>
+											<ul class="stars">
+												<li>
+													<a href="#">
+														<i class="fa fa-star" aria-hidden="true"></i>
+													</a>
+												</li>
+												<li>
+													<a href="#">
+														<i class="fa fa-star" aria-hidden="true"></i>
+													</a>
+												</li>
+												<li>
+													<a href="#">
+														<i class="fa fa-star" aria-hidden="true"></i>
+													</a>
+												</li>
+												<li>
+													<a href="#">
+														<i class="fa fa-star" aria-hidden="true"></i>
+													</a>
+												</li>
+												<li>
+													<a href="#">
+														<i class="fa fa-star-half-o" aria-hidden="true"></i>
+													</a>
+												</li>
+											</ul>
+										</div>
+										<div class="googles single-item hvr-outline-out">
+											<form action="#" method="post">
+												<input type="hidden" name="cmd" value="_cart">
+												<input type="hidden" name="add" value="1">
+												<input type="hidden" name="googles_item" value="Aislin Wayfarer">
+												<input type="hidden" name="amount" value="775.00">
+												<button type="submit" class="googles-cart pgoogles-cart">
+													<i class="fas fa-cart-plus"></i>
+												</button>
+												
+											</form>
+
+										</div>
+									</div>
+									<div class="clearfix"></div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-3 product-men women_two">
+						<div class="product-googles-info googles">
+							<div class="men-pro-item">
+								<div class="men-thumb-item">
+									<img src="images/m2.jpg" class="img-fluid" alt="">
+									<div class="men-cart-pro">
+										<div class="inner-men-cart-pro">
+											<a href="single.html" class="link-product-add-cart">je découvre</a>
+										</div>
+									</div>
+									<span class="product-new-top">Nouveau</span>
+								</div>
+								<div class="item-info-product">
+
+									<div class="info-product-price">
+										<div class="grid_meta">
+											<div class="product_price">
+												<h4>
+													<a href="single.html">Burbery </a>
+												</h4>
+												<div class="grid-price mt-2">
+													<span class="money ">700.00dt</span>
+												</div>
+											</div>
+											<ul class="stars">
+												<li>
+													<a href="#">
+														<i class="fa fa-star" aria-hidden="true"></i>
+													</a>
+												</li>
+												<li>
+													<a href="#">
+														<i class="fa fa-star" aria-hidden="true"></i>
+													</a>
+												</li>
+												<li>
+													<a href="#">
+														<i class="fa fa-star" aria-hidden="true"></i>
+													</a>
+												</li>
+												<li>
+													<a href="#">
+														<i class="fa fa-star-half-o" aria-hidden="true"></i>
+													</a>
+												</li>
+												<li>
+													<a href="#">
+														<i class="fa fa-star-o" aria-hidden="true"></i>
+													</a>
+												</li>
+											</ul>
+										</div>
+										<div class="googles single-item hvr-outline-out">
+											<form action="#" method="post">
+												<input type="hidden" name="cmd" value="_cart">
+												<input type="hidden" name="add" value="1">
+												<input type="hidden" name="googles_item" value="Azmani Round">
+												<input type="hidden" name="amount" value="725.00">
+												<button type="submit" class="googles-cart pgoogles-cart">
+													<i class="fas fa-cart-plus"></i>
+												</button>
+
+												
+											</form>
+										</div>
+									</div>
+									<div class="clearfix"></div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-3 product-men women_two">
+						<div class="product-googles-info googles">
+							<div class="men-pro-item">
+								<div class="men-thumb-item">
+									<img src="images/m3.jpg" class="img-fluid" alt="">
+									<div class="men-cart-pro">
+										<div class="inner-men-cart-pro">
+											<a href="single.html" class="link-product-add-cart">je découvre</a>
+										</div>
+									</div>
+									<span class="product-new-top">Nouveau</span>
+								</div>
+								<div class="item-info-product">
+
+									<div class="info-product-price">
+										<div class="grid_meta">
+											<div class="product_price">
+												<h4>
+													<a href="single.html">Prada</a>
+												</h4>
+												<div class="grid-price mt-2">
+													<span class="money ">475.00dt</span>
+												</div>
+											</div>
+											<ul class="stars">
+												<li>
+													<a href="#">
+														<i class="fa fa-star" aria-hidden="true"></i>
+													</a>
+												</li>
+												<li>
+													<a href="#">
+														<i class="fa fa-star" aria-hidden="true"></i>
+													</a>
+												</li>
+												<li>
+													<a href="#">
+														<i class="fa fa-star" aria-hidden="true"></i>
+													</a>
+												</li>
+												<li>
+													<a href="#">
+														<i class="fa fa-star" aria-hidden="true"></i>
+													</a>
+												</li>
+												<li>
+													<a href="#">
+														<i class="fa fa-star-half-o" aria-hidden="true"></i>
+													</a>
+												</li>
+											</ul>
+										</div>
+										<div class="googles single-item hvr-outline-out">
+											<form action="#" method="post">
+												<input type="hidden" name="cmd" value="_cart">
+												<input type="hidden" name="add" value="1">
+												<input type="hidden" name="googles_item" value="Farenheit Wayfarer">
+												<input type="hidden" name="amount" value="475.00">
+												<button type="submit" class="googles-cart pgoogles-cart">
+													<i class="fas fa-cart-plus"></i>
+												</button>
+											
+											</form>
+
+										</div>
+									</div>
+									<div class="clearfix"></div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-3 product-men women_two">
+						<div class="product-googles-info googles">
+							<div class="men-pro-item">
+								<div class="men-thumb-item">
+									<img src="images/m4.jpg" class="img-fluid" alt="">
+									<div class="men-cart-pro">
+										<div class="inner-men-cart-pro">
+											<a href="single.html" class="link-product-add-cart">je découvre</a>
+										</div>
+									</div>
+									<span class="product-new-top">Nouveau</span>
+								</div>
+								<div class="item-info-product">
+
+									<div class="info-product-price">
+										<div class="grid_meta">
+											<div class="product_price">
+												<h4>
+													<a href="single.html"> Chanel  </a>
+												</h4>
+												<div class="grid-price mt-2">
+													<span class="money ">825.00dt</span>
+												</div>
+											</div>
+											<ul class="stars">
+												<li>
+													<a href="#">
+														<i class="fa fa-star" aria-hidden="true"></i>
+													</a>
+												</li>
+												<li>
+													<a href="#">
+														<i class="fa fa-star" aria-hidden="true"></i>
+													</a>
+												</li>
+												<li>
+													<a href="#">
+														<i class="fa fa-star" aria-hidden="true"></i>
+													</a>
+												</li>
+												<li>
+													<a href="#">
+														<i class="fa fa-star-half-o" aria-hidden="true"></i>
+													</a>
+												</li>
+												<li>
+													<a href="#">
+														<i class="fa fa-star-o" aria-hidden="true"></i>
+													</a>
+												</li>
+											</ul>
+										</div>
+										<div class="googles single-item hvr-outline-out">
+											<form action="#" method="post">
+												<input type="hidden" name="cmd" value="_cart">
+												<input type="hidden" name="add" value="1">
+												<input type="hidden" name="googles_item" value="Fossil Wayfarer">
+												<input type="hidden" name="amount" value="825.00">
+												<button type="submit" class="googles-cart pgoogles-cart">
+													<i class="fas fa-cart-plus"></i>
+												</button>
+											</form>
+
+										</div>
+									</div>
+									<div class="clearfix"></div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<!-- /mens -->
+				</div>
+				<!--//row-->
+				<!--/meddle-->
+				<div class="row">
+					<div class="col-md-12 middle-slider my-4">
+						<div class="middle-text-info ">
+
+							<h3 class="tittle-w3layouts two text-center my-lg-4 mt-3">Soldes d'hiver</h3>
+							<div class="simply-countdown-custom" id="simply-countdown-custom"></div>
+
+						</div>
+					</div>
+				</div>
+				<!--//meddle-->
+				<!--/slide-->
+				<div class="slider-img mid-sec">
+					<!--//banner-sec-->
+					<div class="mid-slider">
+						<div class="owl-carousel owl-theme row">
+							<div class="item">
+								<div class="gd-box-info text-center">
+									<div class="product-men women_two bot-gd">
+										<div class="product-googles-info slide-img googles">
+											<div class="men-pro-item">
+												<div class="men-thumb-item">
+													<img src="images/s5.jpg" class="img-fluid" alt="">
+													<div class="men-cart-pro">
+														<div class="inner-men-cart-pro">
+															<a href="single.html" class="link-product-add-cart">je découvre</a>
+														</div>
+													</div>
+													<span class="product-new-top">Nouveau</span>
+												</div>
+												<div class="item-info-product">
+
+													<div class="info-product-price">
+														<div class="grid_meta">
+															<div class="product_price">
+																<h4>
+																	<a href="single.html">karen wazen  </a>
+																</h4>
+																<div class="grid-price mt-2">
+																	<span class="money ">995.00dt</span>
+																</div>
+															</div>
+															<ul class="stars">
+																<li>
+																	<a href="#">
+																		<i class="fa fa-star" aria-hidden="true"></i>
+																	</a>
+																</li>
+																<li>
+																	<a href="#">
+																		<i class="fa fa-star" aria-hidden="true"></i>
+																	</a>
+																</li>
+																<li>
+																	<a href="#">
+																		<i class="fa fa-star" aria-hidden="true"></i>
+																	</a>
+																</li>
+																<li>
+																	<a href="#">
+																		<i class="fa fa-star-half-o" aria-hidden="true"></i>
+																	</a>
+																</li>
+																<li>
+																	<a href="#">
+																		<i class="fa fa-star-o" aria-hidden="true"></i>
+																	</a>
+																</li>
+															</ul>
+														</div>
+														<div class="googles single-item hvr-outline-out">
+															<form action="#" method="post">
+																<input type="hidden" name="cmd" value="_cart">
+																<input type="hidden" name="add" value="1">
+																<input type="hidden" name="googles_item" value="Fastrack Aviator">
+																<input type="hidden" name="amount" value="325.00">
+																<button type="submit" class="googles-cart pgoogles-cart">
+																	<i class="fas fa-cart-plus"></i>
+																</button>
+															</form>
+
+														</div>
+													</div>
+
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="item">
+								<div class="gd-box-info text-center">
+									<div class="product-men women_two bot-gd">
+										<div class="product-googles-info slide-img googles">
+											<div class="men-pro-item">
+												<div class="men-thumb-item">
+													<img src="images/s6.jpg" class="img-fluid" alt="">
+													<div class="men-cart-pro">
+														<div class="inner-men-cart-pro">
+															<a href="single.html" class="link-product-add-cart">je découvre</a>
+														</div>
+													</div>
+													<span class="product-new-top">Nouveau</span>
+												</div>
+												<div class="item-info-product">
+
+													<div class="info-product-price">
+														<div class="grid_meta">
+															<div class="product_price">
+																<h4>
+																	<a href="single.html">Roberto cavalli </a>
+																</h4>
+																<div class="grid-price mt-2">
+																	<span class="money ">820.00dt</span>
+																</div>
+															</div>
+															<ul class="stars">
+																<li>
+																	<a href="#">
+																		<i class="fa fa-star" aria-hidden="true"></i>
+																	</a>
+																</li>
+																<li>
+																	<a href="#">
+																		<i class="fa fa-star" aria-hidden="true"></i>
+																	</a>
+																</li>
+																<li>
+																	<a href="#">
+																		<i class="fa fa-star" aria-hidden="true"></i>
+																	</a>
+																</li>
+																<li>
+																	<a href="#">
+																		<i class="fa fa-star-half-o" aria-hidden="true"></i>
+																	</a>
+																</li>
+																<li>
+																	<a href="#">
+																		<i class="fa fa-star-o" aria-hidden="true"></i>
+																	</a>
+																</li>
+															</ul>
+														</div>
+														<div class="googles single-item hvr-outline-out">
+															<form action="#" method="post">
+																<input type="hidden" name="cmd" value="_cart">
+																<input type="hidden" name="add" value="1">
+																<input type="hidden" name="googles_item" value="MARTIN Aviator">
+																<input type="hidden" name="amount" value="425.00">
+																<button type="submit" class="googles-cart pgoogles-cart">
+																	<i class="fas fa-cart-plus"></i>
+																</button>
+															</form>
+
+														</div>
+													</div>
+
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="item">
+								<div class="gd-box-info text-center">
+									<div class="product-men women_two bot-gd">
+										<div class="product-googles-info slide-img googles">
+											<div class="men-pro-item">
+												<div class="men-thumb-item">
+													<img src="images/s7.jpg" class="img-fluid" alt="">
+													<div class="men-cart-pro">
+														<div class="inner-men-cart-pro">
+															<a href="single.html" class="link-product-add-cart">je découvre</a>
+														</div>
+													</div>
+													<span class="product-new-top">Nouveau</span>
+												</div>
+												<div class="item-info-product">
+
+													<div class="info-product-price">
+														<div class="grid_meta">
+															<div class="product_price">
+																<h4>
+																	<a href="single.html">GUCCI</a>
+																</h4>
+																<div class="grid-price mt-2">
+																	<span class="money ">8200.00dt</span>
+																</div>
+															</div>
+															<ul class="stars">
+																<li>
+																	<a href="#">
+																		<i class="fa fa-star" aria-hidden="true"></i>
+																	</a>
+																</li>
+																<li>
+																	<a href="#">
+																		<i class="fa fa-star" aria-hidden="true"></i>
+																	</a>
+																</li>
+																<li>
+																	<a href="#">
+																		<i class="fa fa-star" aria-hidden="true"></i>
+																	</a>
+																</li>
+																<li>
+																	<a href="#">
+																		<i class="fa fa-star-half-o" aria-hidden="true"></i>
+																	</a>
+																</li>
+																<li>
+																	<a href="#">
+																		<i class="fa fa-star-o" aria-hidden="true"></i>
+																	</a>
+																</li>
+															</ul>
+														</div>
+														<div class="googles single-item hvr-outline-out">
+															<form action="#" method="post">
+																<input type="hidden" name="cmd" value="_cart">
+																<input type="hidden" name="add" value="1">
+																<input type="hidden" name="googles_item" value="Royal Son Aviator">
+																<input type="hidden" name="amount" value="425.00">
+																<button type="submit" class="googles-cart pgoogles-cart">
+																	<i class="fas fa-cart-plus"></i>
+																</button>
+															</form>
+
+														</div>
+													</div>
+
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="item">
+								<div class="gd-box-info text-center">
+									<div class="product-men women_two bot-gd">
+										<div class="product-googles-info slide-img googles">
+											<div class="men-pro-item">
+												<div class="men-thumb-item">
+													<img src="images/s8.jpg" class="img-fluid" alt="">
+													<div class="men-cart-pro">
+														<div class="inner-men-cart-pro">
+															<a href="single.html" class="link-product-add-cart">je découvre</a>
+														</div>
+													</div>
+													<span class="product-new-top">Nouveau</span>
+												</div>
+												<div class="item-info-product">
+
+													<div class="info-product-price">
+														<div class="grid_meta">
+															<div class="product_price">
+																<h4>
+																	<a href="single.html">Guess </a>
+																</h4>
+																<div class="grid-price mt-2">
+																	<span class="money ">680.00dt</span>
+																</div>
+															</div>
+															<ul class="stars">
+																<li>
+																	<a href="#">
+																		<i class="fa fa-star" aria-hidden="true"></i>
+																	</a>
+																</li>
+																<li>
+																	<a href="#">
+																		<i class="fa fa-star" aria-hidden="true"></i>
+																	</a>
+																</li>
+																<li>
+																	<a href="#">
+																		<i class="fa fa-star" aria-hidden="true"></i>
+																	</a>
+																</li>
+																<li>
+																	<a href="#">
+																		<i class="fa fa-star-half-o" aria-hidden="true"></i>
+																	</a>
+																</li>
+																<li>
+																	<a href="#">
+																		<i class="fa fa-star-o" aria-hidden="true"></i>
+																	</a>
+																</li>
+															</ul>
+														</div>
+														<div class="googles single-item hvr-outline-out">
+															<form action="#" method="post">
+																<input type="hidden" name="cmd" value="_cart">
+																<input type="hidden" name="add" value="1">
+																<input type="hidden" name="googles_item" value="Irayz Butterfly">
+																<input type="hidden" name="amount" value="281.00">
+																<button type="submit" class="googles-cart pgoogles-cart">
+																	<i class="fas fa-cart-plus"></i>
+																</button>
+															</form>
+
+														</div>
+													</div>
+
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="item">
+								<div class="gd-box-info text-center">
+									<div class="product-men women_two bot-gd">
+										<div class="product-googles-info slide-img googles">
+											<div class="men-pro-item">
+												<div class="men-thumb-item">
+													<img src="images/s9.jpg" class="img-fluid" alt="">
+													<div class="men-cart-pro">
+														<div class="inner-men-cart-pro">
+															<a href="single.html" class="link-product-add-cart">je découvre</a>
+														</div>
+													</div>
+													<span class="product-new-top">Nouveau</span>
+												</div>
+												<div class="item-info-product">
+
+													<div class="info-product-price">
+														<div class="grid_meta">
+															<div class="product_price">
+																<h4>
+																	<a href="single.html">Prada </a>
+																</h4>
+																<div class="grid-price mt-2">
+																	<span class="money ">300.00dt</span>
+																</div>
+															</div>
+															<ul class="stars">
+																<li>
+																	<a href="#">
+																		<i class="fa fa-star" aria-hidden="true"></i>
+																	</a>
+																</li>
+																<li>
+																	<a href="#">
+																		<i class="fa fa-star" aria-hidden="true"></i>
+																	</a>
+																</li>
+																<li>
+																	<a href="#">
+																		<i class="fa fa-star" aria-hidden="true"></i>
+																	</a>
+																</li>
+																<li>
+																	<a href="#">
+																		<i class="fa fa-star-half-o" aria-hidden="true"></i>
+																	</a>
+																</li>
+																<li>
+																	<a href="#">
+																		<i class="fa fa-star-o" aria-hidden="true"></i>
+																	</a>
+																</li>
+															</ul>
+														</div>
+														<div class="googles single-item hvr-outline-out">
+															<form action="#" method="post">
+																<input type="hidden" name="cmd" value="_cart">
+																<input type="hidden" name="add" value="1">
+																<input type="hidden" name="googles_item" value="Jerry Rectangular ">
+																<input type="hidden" name="amount" value="525.00">
+																<button type="submit" class="googles-cart pgoogles-cart">
+																	<i class="fas fa-cart-plus"></i>
+																</button>
+															</form>
+
+														</div>
+													</div>
+
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="item">
+								<div class="gd-box-info text-center">
+									<div class="product-men women_two bot-gd">
+										<div class="product-googles-info slide-img googles">
+											<div class="men-pro-item">
+												<div class="men-thumb-item">
+													<img src="images/s10.jpg" class="img-fluid" alt="">
+													<div class="men-cart-pro">
+														<div class="inner-men-cart-pro">
+															<a href="single.html" class="link-product-add-cart">je découvre</a>
+														</div>
+													</div>
+													<span class="product-new-top">Nouveau</span>
+												</div>
+												<div class="item-info-product">
+
+													<div class="info-product-price">
+														<div class="grid_meta">
+															<div class="product_price">
+																<h4>
+																	<a href="single.html"> GUCCI </a>
+																</h4>
+																<div class="grid-price mt-2">
+																	<span class="money ">450.00dt</span>
+																</div>
+															</div>
+															<ul class="stars">
+																<li>
+																	<a href="#">
+																		<i class="fa fa-star" aria-hidden="true"></i>
+																	</a>
+																</li>
+																<li>
+																	<a href="#">
+																		<i class="fa fa-star" aria-hidden="true"></i>
+																	</a>
+																</li>
+																<li>
+																	<a href="#">
+																		<i class="fa fa-star" aria-hidden="true"></i>
+																	</a>
+																</li>
+																<li>
+																	<a href="#">
+																		<i class="fa fa-star-half-o" aria-hidden="true"></i>
+																	</a>
+																</li>
+																<li>
+																	<a href="#">
+																		<i class="fa fa-star-o" aria-hidden="true"></i>
+																	</a>
+																</li>
+															</ul>
+														</div>
+														<div class="googles single-item hvr-outline-out">
+															<form action="#" method="post">
+																<input type="hidden" name="cmd" value="_cart">
+																<input type="hidden" name="add" value="1">
+																<input type="hidden" name="googles_item" value="Herdy Wayfarer">
+																<input type="hidden" name="amount" value="325.00">
+																<button type="submit" class="googles-cart pgoogles-cart">
+																	<i class="fas fa-cart-plus"></i>
+																</button>
+															</form>
+
+														</div>
+													</div>
+
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- /testimonials -->
+				<div class="testimonials py-lg-4 py-3 mt-4">
+					<div class="testimonials-inner py-lg-4 py-3">
+						<h3 class="tittle-w3layouts text-center my-lg-4 my-4">Témoignages</h3>
+						<div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+							<div class="carousel-inner" role="listbox">
+								<div class="carousel-item active">
+									<div class="testimonials_grid text-center">
+										<h3>Mouna nourdin
+											<span>Customer</span>
+										</h3>
+										<label>Tunisie</label>
+										<p></p>
+									</div>
+								</div>
+								<div class="carousel-item">
+									<div class="testimonials_grid text-center">
+										<h3>THafer abidin
+											<span>Customer</span>
+										</h3>
+										<label>Tunisie</label>
+										<p></p>
+									</div>
+								</div>
+								<div class="carousel-item">
+									<div class="testimonials_grid text-center">
+										<h3>Hend sabri
+											<span>Customer</span>
+										</h3>
+										<label>Tunisie</label>
+										<p></p>
+									</div>
+								</div>
+								<a class="carousel-control-prev test" href="#carouselExampleControls" role="button" data-slide="prev">
+									<span class="fas fa-long-arrow-alt-left"></span>
+									<span class="sr-only">Previous</span>
+								</a>
+								<a class="carousel-control-next test" href="#carouselExampleControls" role="button" data-slide="next">
+									<span class="fas fa-long-arrow-alt-right" aria-hidden="true"></span>
+									<span class="sr-only">Next</span>
+
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- //testimonials -->
+				<div class="row galsses-grids pt-lg-5 pt-3">
+					<div class="col-lg-6 galsses-grid-left">
+						<figure class="effect-lexi">
+							<img src="images/banner4.jpg" alt="" class="img-fluid">
+							<figcaption>
+								<h3>
+									<span></span>
+								</h3>
+								<p> Express your style now.</p>
+							</figcaption>
+						</figure>
+					</div>
+					<div class="col-lg-6 galsses-grid-left">
+						<figure class="effect-lexi">
+							<img src="images/banner1.jpg" alt="" class="img-fluid">
+							<figcaption>
+								<h3>
+									<span></span>
+								</h3>
+								<p>Express your style now.</p>
+							</figcaption>
+						</figure>
+					</div>
+				</div>
+				<!-- /grids -->
+				<div class="bottom-sub-grid-content py-lg-5 py-3">
+					<div class="row">
+						<div class="col-lg-4 bottom-sub-grid text-center">
+							<div class="bt-icon">
+
+								<span class="far fa-hand-paper"></span>
+							</div>
+
+							<h4 class="sub-tittle-w3layouts my-lg-4 my-3">satisfaction garantie</h4>
+							<p>Bien choisir ses lunettes ou ses lentilles n’est pas simple. Avec perl'optique, vous pouvez les changer dans les 3 mois suivant votre achat
+							 Notre enseigne garantit également leur entretien pour votre tranquillité et votre bien-être. </p>
+							<p>
+								<a href="shop.html" class="btn btn-sm animated-button gibson-three mt-4">Achetez maintenant</a>
+							</p>
+						</div>
+						<!-- /.col-lg-4 -->
+						<div class="col-lg-4 bottom-sub-grid text-center">
+							<div class="bt-icon">
+								<span class="fas fa-rocket"></span>
+							</div>
+
+							<h4 class="sub-tittle-w3layouts my-lg-4 my-3">Fast Shipping</h4>
+							<p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit.</p>
+							<p>
+								<a href="shop.html" class="btn btn-sm animated-button gibson-three mt-4">Achetez maintenant</a>
+							</p>
+						</div>
+						<!-- /.col-lg-4 -->
+						<div class="col-lg-4 bottom-sub-grid text-center">
+							<div class="bt-icon">
+								<span class="far fa-sun"></span>
+							</div>
+
+							<h4 class="sub-tittle-w3layouts my-lg-4 my-3">protection UV</h4>
+							<p>Categorie des verres 4
+								Ces verres laissent entrer seulement 3-8% des rayons UV et sont les verres les plus sombres que vous pourrez trouver.</p>
+							<p>
+								<a href="shop.html" class="btn btn-sm animated-button gibson-three mt-4">Achetez maintenant</a>
+							</p>
+						</div>
+						<!-- /.col-lg-4 -->
+					</div>
+				</div>
+				<!-- //grids -->
+				<!-- /clients-sec -->
+				<div class="testimonials p-lg-5 p-3 mt-4">
+					<div class="row last-section">
+						<div class="col-lg-3 footer-top-w3layouts-grid-sec">
+							<div class="mail-grid-icon text-center">
+								<i class="fas fa-gift"></i>
+							</div>
+							<div class="mail-grid-text-info">
+								<h3>PRODUIT D'ORIGINE</h3>
+								<p></p>
+							</div>
+						</div>
+						<div class="col-lg-3 footer-top-w3layouts-grid-sec">
+							<div class="mail-grid-icon text-center">
+								<i class="fas fa-shield-alt"></i>
+							</div>
+							<div class="mail-grid-text-info">
+								<h3>Produits sécurisés</h3>
+								<p></p>
+							</div>
+						</div>
 						
 					</div>
 				</div>
-					<!--//sreen-gallery-cursual---->
+				<!-- //clients-sec -->
 			</div>
 		</div>
-		
-		
+	</section>
+	<!-- about -->
+	<!--footer -->
+	<footer class="py-lg-5 py-3">
+		<div class="container-fluid px-lg-5 px-3">
+			<div class="row footer-top-w3layouts">
+				<div class="col-lg-3 footer-grid-w3ls">
+					<div class="footer-title">
+						<h3>A propos</h3>
+					</div>
+					<div class="footer-text">
+						<p>perl'optique est votre boutique en ligne qui se spécialise dans la vente des lunettes haute gamme en Tunisie Un large choix pour hommes, 
+							femmes et enfants de célèbres marques.</p>
+						<ul class="footer-social text-left mt-lg-4 mt-3">
+
+							<li class="mx-2">
+								<a href="#">
+									<span class="fab fa-facebook-f"></span>
+								</a>
+							</li>
+							<li class="mx-2">
+								<a href="#">
+									<span class="fab fa-twitter"></span>
+								</a>
+							</li>
+							<li class="mx-2">
+								<a href="#">
+									<span class="fab fa-google-plus-g"></span>
+								</a>
+							</li>
+							<li class="mx-2">
+								<a href="#">
+									<span class="fab fa-linkedin-in"></span>
+								</a>
+							</li>
+							<li class="mx-2">
+								<a href="#">
+									<span class="fas fa-rss"></span>
+								</a>
+							</li>
+							<li class="mx-2">
+								<a href="#">
+									<span class="fab fa-vk"></span>
+								</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+				<div class="col-lg-3 footer-grid-w3ls">
+					<div class="footer-title">
+						<h3>Entrer en contact</h3>
+					</div>
+					<div class="contact-info">
+						<h4>Emplacement :</h4>
+						<p>Place des Martyrs(à coté du STEG) Menzel Bourguiba-Bizerte.</p>
+						<div class="phone">
+							<h4>Contact :</h4>
+							<p>Téléphone: 72463412</p>
+							
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-3 footer-grid-w3ls">
+					<div class="footer-title">
+						<h3>Liens rapides</h3>
+					</div>
+					<ul class="links">
+						<li>
+							<a href="index.html">Accueil</a>
+						</li>
+						<li>
+							<a href="about.html">A propos</a>
+						</li>
+						<li>
+							<a href="404.html">Erreur</a>
+						</li>
+						<li>
+							<a href="shop.html">Boutique</a>
+						</li>
+						<li>
+							<a href="contact.html">Contactez nous</a>
+						</li>
+					</ul>
+				</div>
+				<div class="col-lg-3 footer-grid-w3ls">
+					<div class="footer-title">
+						<h3>Inscrivez-vous pour vos offres</h3>
+					</div>
+					<div class="footer-text">
+						<p>En vous inscrivant à notre liste de diffusion, vous obtiendrez toujours les dernières nouvelles et mises à jour de notre part.</p>
+						<form action="#" method="post">
+							<input class="form-control" type="email" name="Email" placeholder="Entrer ton email..." required="">
+							<button class="btn1">
+								<i class="far fa-envelope" aria-hidden="true"></i>
+							</button>
+							<div class="clearfix"> </div>
+						</form>
+					</div>
+				</div>
+			</div>
+			<div class="copyright-w3layouts mt-4">
 				
-	<!--footer-->
-	<div class="footer">
-	  		
+			</div>
+		</div>
+	</footer>
+	<!-- //footer -->
+
+	<!--jQuery-->
+	<script src="js/jquery-2.2.3.min.js"></script>
+	<!-- newsletter modal -->
+	<!-- Modal -->
+	<!-- Modal -->
+	<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-hidden="true">
+		<div class="modal-dialog" role="document">
+			<div class="modal-content">
+				<div class="modal-header">
+
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+						<span aria-hidden="true">&times;</span>
+					</button>
+				</div>
+				<div class="modal-body text-center p-5 mx-auto mw-100">
+					<h6>Join our newsletter and get</h6>
+					<h3>50% Off for your first Pair of Eye wear</h3>
+					<div class="login newsletter">
+						<form action="#" method="post">
+							<div class="form-group">
+								<label class="mb-2">Email address</label>
+								<input type="email" class="form-control" id="exampleInputEmail2" aria-describedby="emailHelp" placeholder="" required="">
+							</div>
+							<button type="submit" class="btn btn-primary submit mb-4">Get 50% Off</button>
+						</form>
+						<p class="text-center">
+							<a href="#">No thanks I want to pay full Price</a>
+						</p>
+					</div>
+				</div>
+
+			</div>
+		</div>
 	</div>
-    <!--//footer-->
-	</div>
-		
-	<!-- new added graphs chart js-->
-	
-    <script src="js/Chart.bundle.js"></script>
-    <script src="js/utils.js"></script>
-	
 	<script>
-        var MONTHS = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
-        var color = Chart.helpers.color;
-        var barChartData = {
-            labels: ["January", "February", "March", "April", "May", "June", "July"],
-            datasets: [{
-                label: 'Dataset 1',
-                backgroundColor: color(window.chartColors.red).alpha(0.5).rgbString(),
-                borderColor: window.chartColors.red,
-                borderWidth: 1,
-                data: [
-                    randomScalingFactor(),
-                    randomScalingFactor(),
-                    randomScalingFactor(),
-                    randomScalingFactor(),
-                    randomScalingFactor(),
-                    randomScalingFactor(),
-                    randomScalingFactor()
-                ]
-            }, {
-                label: 'Dataset 2',
-                backgroundColor: color(window.chartColors.blue).alpha(0.5).rgbString(),
-                borderColor: window.chartColors.blue,
-                borderWidth: 1,
-                data: [
-                    randomScalingFactor(),
-                    randomScalingFactor(),
-                    randomScalingFactor(),
-                    randomScalingFactor(),
-                    randomScalingFactor(),
-                    randomScalingFactor(),
-                    randomScalingFactor()
-                ]
-            }]
+		$(document).ready(function () {
+			$("#myModal").modal();
+		});
+	</script>
+	<!-- // modal -->
 
-        };
+	<!--search jQuery-->
+	<script src="js/modernizr-2.6.2.min.js"></script>
+	<script src="js/classie-search.js"></script>
+	<script src="js/demo1-search.js"></script>
+	<!--//search jQuery-->
+	<!-- cart-js -->
+	<script src="js/minicart.js"></script>
+	<script>
+		googles.render();
 
-        window.onload = function() {
-            var ctx = document.getElementById("canvas").getContext("2d");
-            window.myBar = new Chart(ctx, {
-                type: 'bar',
-                data: barChartData,
-                options: {
-                    responsive: true,
-                    legend: {
-                        position: 'top',
-                    },
-                    title: {
-                        display: true,
-                        text: 'Chart.js Bar Chart'
-                    }
-                }
-            });
+		googles.cart.on('googles_checkout', function (evt) {
+			var items, len, i;
 
-        };
+			if (this.subtotal() > 0) {
+				items = this.items();
 
-        document.getElementById('randomizeData').addEventListener('click', function() {
-            var zero = Math.random() < 0.2 ? true : false;
-            barChartData.datasets.forEach(function(dataset) {
-                dataset.data = dataset.data.map(function() {
-                    return zero ? 0.0 : randomScalingFactor();
-                });
-
-            });
-            window.myBar.update();
-        });
-
-        var colorNames = Object.keys(window.chartColors);
-        document.getElementById('addDataset').addEventListener('click', function() {
-            var colorName = colorNames[barChartData.datasets.length % colorNames.length];;
-            var dsColor = window.chartColors[colorName];
-            var newDataset = {
-                label: 'Dataset ' + barChartData.datasets.length,
-                backgroundColor: color(dsColor).alpha(0.5).rgbString(),
-                borderColor: dsColor,
-                borderWidth: 1,
-                data: []
-            };
-
-            for (var index = 0; index < barChartData.labels.length; ++index) {
-                newDataset.data.push(randomScalingFactor());
-            }
-
-            barChartData.datasets.push(newDataset);
-            window.myBar.update();
-        });
-
-        document.getElementById('addData').addEventListener('click', function() {
-            if (barChartData.datasets.length > 0) {
-                var month = MONTHS[barChartData.labels.length % MONTHS.length];
-                barChartData.labels.push(month);
-
-                for (var index = 0; index < barChartData.datasets.length; ++index) {
-                    //window.myBar.addData(randomScalingFactor(), index);
-                    barChartData.datasets[index].data.push(randomScalingFactor());
-                }
-
-                window.myBar.update();
-            }
-        });
-
-        document.getElementById('removeDataset').addEventListener('click', function() {
-            barChartData.datasets.splice(0, 1);
-            window.myBar.update();
-        });
-
-        document.getElementById('removeData').addEventListener('click', function() {
-            barChartData.labels.splice(-1, 1); // remove the label first
-
-            barChartData.datasets.forEach(function(dataset, datasetIndex) {
-                dataset.data.pop();
-            });
-
-            window.myBar.update();
-        });
-    </script>
-	<!-- new added graphs chart js-->
-	
-	<!-- Classie --><!-- for toggle left push menu script -->
-		<script src="js/classie.js"></script>
-		<script>
-			var menuLeft = document.getElementById( 'cbp-spmenu-s1' ),
-				showLeftPush = document.getElementById( 'showLeftPush' ),
-				body = document.body;
-				
-			showLeftPush.onclick = function() {
-				classie.toggle( this, 'active' );
-				classie.toggle( body, 'cbp-spmenu-push-toright' );
-				classie.toggle( menuLeft, 'cbp-spmenu-open' );
-				disableOther( 'showLeftPush' );
-			};
-			
-
-			function disableOther( button ) {
-				if( button !== 'showLeftPush' ) {
-					classie.toggle( showLeftPush, 'disabled' );
-				}
+				for (i = 0, len = items.length; i < len; i++) {}
 			}
-		</script>
-	<!-- //Classie --><!-- //for toggle left push menu script -->
-		
-	<!--scrolling js-->
-	<script src="js/jquery.nicescroll.js"></script>
-	<script src="js/scripts.js"></script>
-	<!--//scrolling js-->
-	
-	<!-- side nav js -->
-	<script src='js/SidebarNav.min.js' type='text/javascript'></script>
+		});
+	</script>
+	<!-- //cart-js -->
 	<script>
-      $('.sidebar-menu').SidebarNav()
-    </script>
-	<!-- //side nav js -->
-	
-	<!-- for index page weekly sales java script -->
-	<script src="js/SimpleChart.js"></script>
+		$(document).ready(function () {
+			$(".button-log a").click(function () {
+				$(".overlay-login").fadeToggle(200);
+				$(this).toggleClass('btn-open').toggleClass('btn-close');
+			});
+		});
+		$('.overlay-close1').on('click', function () {
+			$(".overlay-login").fadeToggle(200);
+			$(".button-log a").toggleClass('btn-open').toggleClass('btn-close');
+			open = false;
+		});
+	</script>
+	<!-- carousel -->
+	<!-- Count-down -->
+	<script src="js/simplyCountdown.js"></script>
+	<link href="css/simplyCountdown.css" rel='stylesheet' type='text/css' />
+	<script>
+		var d = new Date();
+		simplyCountdown('simply-countdown-custom', {
+			year: d.getFullYear(),
+			month: d.getMonth() + 2,
+			day: 25
+		});
+	</script>
+	<!--// Count-down -->
+	<script src="js/owl.carousel.js"></script>
+	<script>
+		$(document).ready(function () {
+			$('.owl-carousel').owlCarousel({
+				loop: true,
+				margin: 10,
+				responsiveClass: true,
+				responsive: {
+					0: {
+						items: 1,
+						nav: true
+					},
+					600: {
+						items: 2,
+						nav: false
+					},
+					900: {
+						items: 3,
+						nav: false
+					},
+					1000: {
+						items: 4,
+						nav: true,
+						loop: false,
+						margin: 20
+					}
+				}
+			})
+		})
+	</script>
+
+	<!-- //end-smooth-scrolling -->
+
+
+	<!-- dropdown nav -->
+	<script>
+		$(document).ready(function () {
+			$(".dropdown").hover(
+				function () {
+					$('.dropdown-menu', this).stop(true, true).slideDown("fast");
+					$(this).toggleClass('open');
+				},
+				function () {
+					$('.dropdown-menu', this).stop(true, true).slideUp("fast");
+					$(this).toggleClass('open');
+				}
+			);
+		});
+	</script>
+	<!-- //dropdown nav -->
+  <script src="js/move-top.js"></script>
+    <script src="js/easing.js"></script>
     <script>
-        var graphdata1 = {
-            linecolor: "#CCA300",
-            title: "Monday",
-            values: [
-            { X: "6:00", Y: 10.00 },
-            { X: "7:00", Y: 20.00 },
-            { X: "8:00", Y: 40.00 },
-            { X: "9:00", Y: 34.00 },
-            { X: "10:00", Y: 40.25 },
-            { X: "11:00", Y: 28.56 },
-            { X: "12:00", Y: 18.57 },
-            { X: "13:00", Y: 34.00 },
-            { X: "14:00", Y: 40.89 },
-            { X: "15:00", Y: 12.57 },
-            { X: "16:00", Y: 28.24 },
-            { X: "17:00", Y: 18.00 },
-            { X: "18:00", Y: 34.24 },
-            { X: "19:00", Y: 40.58 },
-            { X: "20:00", Y: 12.54 },
-            { X: "21:00", Y: 28.00 },
-            { X: "22:00", Y: 18.00 },
-            { X: "23:00", Y: 34.89 },
-            { X: "0:00", Y: 40.26 },
-            { X: "1:00", Y: 28.89 },
-            { X: "2:00", Y: 18.87 },
-            { X: "3:00", Y: 34.00 },
-            { X: "4:00", Y: 40.00 }
-            ]
-        };
-        var graphdata2 = {
-            linecolor: "#00CC66",
-            title: "Tuesday",
-            values: [
-              { X: "6:00", Y: 100.00 },
-            { X: "7:00", Y: 120.00 },
-            { X: "8:00", Y: 140.00 },
-            { X: "9:00", Y: 134.00 },
-            { X: "10:00", Y: 140.25 },
-            { X: "11:00", Y: 128.56 },
-            { X: "12:00", Y: 118.57 },
-            { X: "13:00", Y: 134.00 },
-            { X: "14:00", Y: 140.89 },
-            { X: "15:00", Y: 112.57 },
-            { X: "16:00", Y: 128.24 },
-            { X: "17:00", Y: 118.00 },
-            { X: "18:00", Y: 134.24 },
-            { X: "19:00", Y: 140.58 },
-            { X: "20:00", Y: 112.54 },
-            { X: "21:00", Y: 128.00 },
-            { X: "22:00", Y: 118.00 },
-            { X: "23:00", Y: 134.89 },
-            { X: "0:00", Y: 140.26 },
-            { X: "1:00", Y: 128.89 },
-            { X: "2:00", Y: 118.87 },
-            { X: "3:00", Y: 134.00 },
-            { X: "4:00", Y: 180.00 }
-            ]
-        };
-        var graphdata3 = {
-            linecolor: "#FF99CC",
-            title: "Wednesday",
-            values: [
-              { X: "6:00", Y: 230.00 },
-            { X: "7:00", Y: 210.00 },
-            { X: "8:00", Y: 214.00 },
-            { X: "9:00", Y: 234.00 },
-            { X: "10:00", Y: 247.25 },
-            { X: "11:00", Y: 218.56 },
-            { X: "12:00", Y: 268.57 },
-            { X: "13:00", Y: 274.00 },
-            { X: "14:00", Y: 280.89 },
-            { X: "15:00", Y: 242.57 },
-            { X: "16:00", Y: 298.24 },
-            { X: "17:00", Y: 208.00 },
-            { X: "18:00", Y: 214.24 },
-            { X: "19:00", Y: 214.58 },
-            { X: "20:00", Y: 211.54 },
-            { X: "21:00", Y: 248.00 },
-            { X: "22:00", Y: 258.00 },
-            { X: "23:00", Y: 234.89 },
-            { X: "0:00", Y: 210.26 },
-            { X: "1:00", Y: 248.89 },
-            { X: "2:00", Y: 238.87 },
-            { X: "3:00", Y: 264.00 },
-            { X: "4:00", Y: 270.00 }
-            ]
-        };
-        var graphdata4 = {
-            linecolor: "Random",
-            title: "Thursday",
-            values: [
-              { X: "6:00", Y: 300.00 },
-            { X: "7:00", Y: 410.98 },
-            { X: "8:00", Y: 310.00 },
-            { X: "9:00", Y: 314.00 },
-            { X: "10:00", Y: 310.25 },
-            { X: "11:00", Y: 318.56 },
-            { X: "12:00", Y: 318.57 },
-            { X: "13:00", Y: 314.00 },
-            { X: "14:00", Y: 310.89 },
-            { X: "15:00", Y: 512.57 },
-            { X: "16:00", Y: 318.24 },
-            { X: "17:00", Y: 318.00 },
-            { X: "18:00", Y: 314.24 },
-            { X: "19:00", Y: 310.58 },
-            { X: "20:00", Y: 312.54 },
-            { X: "21:00", Y: 318.00 },
-            { X: "22:00", Y: 318.00 },
-            { X: "23:00", Y: 314.89 },
-            { X: "0:00", Y: 310.26 },
-            { X: "1:00", Y: 318.89 },
-            { X: "2:00", Y: 518.87 },
-            { X: "3:00", Y: 314.00 },
-            { X: "4:00", Y: 310.00 }
-            ]
-        };
-        var Piedata = {
-            linecolor: "Random",
-            title: "Profit",
-            values: [
-              { X: "Monday", Y: 50.00 },
-            { X: "Tuesday", Y: 110.98 },
-            { X: "Wednesday", Y: 70.00 },
-            { X: "Thursday", Y: 204.00 },
-            { X: "Friday", Y: 80.25 },
-            { X: "Saturday", Y: 38.56 },
-            { X: "Sunday", Y: 98.57 }
-            ]
-        };
-        $(function () {
-            $("#Bargraph").SimpleChart({
-                ChartType: "Bar",
-                toolwidth: "50",
-                toolheight: "25",
-                axiscolor: "#E6E6E6",
-                textcolor: "#6E6E6E",
-                showlegends: true,
-                data: [graphdata4, graphdata3, graphdata2, graphdata1],
-                legendsize: "140",
-                legendposition: 'bottom',
-                xaxislabel: 'Hours',
-                title: 'Weekly Profit',
-                yaxislabel: 'Profit in $'
-            });
-            $("#sltchartype").on('change', function () {
-                $("#Bargraph").SimpleChart('ChartType', $(this).val());
-                $("#Bargraph").SimpleChart('reload', 'true');
-            });
-            $("#Hybridgraph").SimpleChart({
-                ChartType: "Hybrid",
-                toolwidth: "50",
-                toolheight: "25",
-                axiscolor: "#E6E6E6",
-                textcolor: "#6E6E6E",
-                showlegends: true,
-                data: [graphdata4],
-                legendsize: "140",
-                legendposition: 'bottom',
-                xaxislabel: 'Hours',
-                title: 'Weekly Profit',
-                yaxislabel: 'Profit in $'
-            });
-            $("#Linegraph").SimpleChart({
-                ChartType: "Line",
-                toolwidth: "50",
-                toolheight: "25",
-                axiscolor: "#E6E6E6",
-                textcolor: "#6E6E6E",
-                showlegends: false,
-                data: [graphdata4, graphdata3, graphdata2, graphdata1],
-                legendsize: "140",
-                legendposition: 'bottom',
-                xaxislabel: 'Hours',
-                title: 'Weekly Profit',
-                yaxislabel: 'Profit in $'
-            });
-            $("#Areagraph").SimpleChart({
-                ChartType: "Area",
-                toolwidth: "50",
-                toolheight: "25",
-                axiscolor: "#E6E6E6",
-                textcolor: "#6E6E6E",
-                showlegends: true,
-                data: [graphdata4, graphdata3, graphdata2, graphdata1],
-                legendsize: "140",
-                legendposition: 'bottom',
-                xaxislabel: 'Hours',
-                title: 'Weekly Profit',
-                yaxislabel: 'Profit in $'
-            });
-            $("#Scatterredgraph").SimpleChart({
-                ChartType: "Scattered",
-                toolwidth: "50",
-                toolheight: "25",
-                axiscolor: "#E6E6E6",
-                textcolor: "#6E6E6E",
-                showlegends: true,
-                data: [graphdata4, graphdata3, graphdata2, graphdata1],
-                legendsize: "140",
-                legendposition: 'bottom',
-                xaxislabel: 'Hours',
-                title: 'Weekly Profit',
-                yaxislabel: 'Profit in $'
-            });
-            $("#Piegraph").SimpleChart({
-                ChartType: "Pie",
-                toolwidth: "50",
-                toolheight: "25",
-                axiscolor: "#E6E6E6",
-                textcolor: "#6E6E6E",
-                showlegends: true,
-                showpielables: true,
-                data: [Piedata],
-                legendsize: "250",
-                legendposition: 'right',
-                xaxislabel: 'Hours',
-                title: 'Weekly Profit',
-                yaxislabel: 'Profit in $'
-            });
-
-            $("#Stackedbargraph").SimpleChart({
-                ChartType: "Stacked",
-                toolwidth: "50",
-                toolheight: "25",
-                axiscolor: "#E6E6E6",
-                textcolor: "#6E6E6E",
-                showlegends: true,
-                data: [graphdata3, graphdata2, graphdata1],
-                legendsize: "140",
-                legendposition: 'bottom',
-                xaxislabel: 'Hours',
-                title: 'Weekly Profit',
-                yaxislabel: 'Profit in $'
-            });
-
-            $("#StackedHybridbargraph").SimpleChart({
-                ChartType: "StackedHybrid",
-                toolwidth: "50",
-                toolheight: "25",
-                axiscolor: "#E6E6E6",
-                textcolor: "#6E6E6E",
-                showlegends: true,
-                data: [graphdata3, graphdata2, graphdata1],
-                legendsize: "140",
-                legendposition: 'bottom',
-                xaxislabel: 'Hours',
-                title: 'Weekly Profit',
-                yaxislabel: 'Profit in $'
+        jQuery(document).ready(function($) {
+            $(".scroll").click(function(event) {
+                event.preventDefault();
+                $('html,body').animate({
+                    scrollTop: $(this.hash).offset().top
+                }, 900);
             });
         });
-
     </script>
-	<!-- //for index page weekly sales java script -->
-	
-	
-	<!-- Bootstrap Core JavaScript -->
-   <script src="js/bootstrap.js"> </script>
-	<!-- //Bootstrap Core JavaScript -->
-	
+    <script>
+        $(document).ready(function() {
+            /*
+            						var defaults = {
+            							  containerID: 'toTop', // fading element id
+            							containerHoverID: 'toTopHover', // fading element hover id
+            							scrollSpeed: 1200,
+            							easingType: 'linear' 
+            						 };
+            						*/
+
+            $().UItoTop({
+                easingType: 'easeOutQuart'
+            });
+
+        });
+    </script>
+    <!--// end-smoth-scrolling -->
+
+	<script src="js/bootstrap.js"></script>
+	<!-- js file -->
 </body>
+
 </html>
