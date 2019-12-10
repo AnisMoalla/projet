@@ -1,14 +1,50 @@
+<!--
+Author: W3layouts
+Author URL: http://w3layouts.com
+License: Creative Commons Attribution 3.0 Unported
+License URL: http://creativecommons.org/licenses/by/3.0/
+-->
+<!DOCTYPE HTML>
 <html>
 <head>
+<title>Glance Design Dashboard an Admin Panel Category Flat Bootstrap Responsive Website Template | 404 error page :: w3layouts</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="keywords" content="Glance Design Dashboard Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template, 
+SmartPhone Compatible web template, free WebDesigns for Nokia, Samsung, LG, SonyEricsson, Motorola web design" />
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
 
-<style type="text/css">
-<!--
-.Style4 {font-size: 12px}
--->
-</style>
-</head>
+<!-- Bootstrap Core CSS -->
+<link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
 
+<!-- Custom CSS -->
+<link href="css/style.css" rel='stylesheet' type='text/css' />
+
+<!-- font-awesome icons CSS -->
+<link href="css/font-awesome.css" rel="stylesheet"> 
+<!-- //font-awesome icons CSS -->
+
+ <!-- side nav css file -->
+ <link href='css/SidebarNav.min.css' media='all' rel='stylesheet' type='text/css'/>
+ <!-- side nav css file -->
+ 
+ <!-- js-->
+<script src="js/jquery-1.11.1.min.js"></script>
+<script src="js/modernizr.custom.js"></script>
+
+<!--webfonts-->
+<link href="//fonts.googleapis.com/css?family=PT+Sans:400,400i,700,700i&amp;subset=cyrillic,cyrillic-ext,latin-ext" rel="stylesheet">
+<!--//webfonts--> 
+
+<!-- Metis Menu -->
+<script src="js/metisMenu.min.js"></script>
+<script src="js/custom.js"></script>
+<link href="css/custom.css" rel="stylesheet">
+<!--//Metis Menu -->
+
+</head> 
 <body>
+	<center>
 <form id="form1" name="form1" method="post" action="code.php">
   <table width="420" border="0">
     <tr>
@@ -34,12 +70,12 @@
     <tr>
       <td>Marque</td>
       <td><label>
-        <input name="t_marque" type="text" id="t_marque" />
+        <input name="t_Marque" type="text" id="t_Marque" />
       </label></td>
     </tr>
     <tr>
       <td>Type</td>
-      <td><input name="t_type" type="text" id="t_type" /></td>
+      <td><input name="t_Type" type="text" id="t_Type" /></td>
     </tr>
     <tr>
       <td colspan="2"><label>
@@ -98,5 +134,6 @@ $var=0;
  }
 ?>
 </table>
+</center>
 </body>
 </html>
